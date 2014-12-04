@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>copy-result</string>
+			<key>Image File</key>
+			<string>objc-method.png</string>
+			<key>Script Interpreter</key>
+			<string>/bin/sh</string>
+			<key>Shell Script File</key>
+			<string>objc-method.sh</string>
+			<key>Title</key>
+			<string>Objc Method</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>http://mna.com/</string>
+			<key>Name</key>
+			<string>Objective-C Method</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Extract selector from method declaration</string>
+	<key>Extension Identifier</key>
+	<string>com.mna.pilotmoon.popclip.extension.objc-method</string>
+	<key>Extension Name</key>
+	<string>Objc Method</string>
+	<key>Required Software Version</key>
+	<integer>701</integer>
+</dict>
+</plist>
