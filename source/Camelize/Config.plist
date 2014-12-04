@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>camelize.png</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/ruby</string>
+			<key>Shell Script File</key>
+			<string>camelize.rb</string>
+			<key>Title</key>
+			<string>Camelize</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Make camle case.</string>
+	<key>Extension Identifier</key>
+	<string>com.mna.pilotmoon.popclip.extension.camelize</string>
+	<key>Extension Name</key>
+	<string>Camelize</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Option Identifier</key>
+			<string>lower</string>
+			<key>Option Label</key>
+			<dict>
+				<key>en</key>
+				<string>Lower</string>
+			</dict>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+	</array>
+</dict>
+</plist>
