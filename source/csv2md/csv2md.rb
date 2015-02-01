@@ -16,6 +16,7 @@ csv = ENV['POPCLIP_TEXT']
 max = 0
 CSV.parse(csv) do |r|
   r.each do |c|
+    next unless c
     max = (c.length > max) ? c.length : max
   end
 end
