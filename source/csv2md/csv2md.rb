@@ -12,28 +12,18 @@ csv = ENV['POPCLIP_TEXT']
 # CSV
 
 
-# Check max column length
-max = 0
-CSV.parse(csv) do |r|
-  r.each do |c|
-    next unless c
-    max = (c.length > max) ? c.length : max
-  end
-end
-
 # Print Markdown table
 headers, *rows = CSV.parse(csv)
 
 print '|'
 headers.each do |h|
-  print "#{h}".ljust(max, ' ')
-  print '|'
+  print "#{h}|"
 end
 print "\n"
 
 print '|'
 headers.each do |h|
-  print '-' * max
+  print '-' * 3
   print '|'
 end
 print "\n"
@@ -41,8 +31,7 @@ print "\n"
 rows.each do |r|
   print '|'
   r.each do |c|
-    print "#{c}".ljust(max, ' ')
-    print '|'
+    print "#{c}|"
   end
   print "\n"
 end
