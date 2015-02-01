@@ -10,7 +10,7 @@
 			<key>Image File</key>
 			<string>csv2md.png</string>
 			<key>Script Interpreter</key>
-			<string>/opt/boxen/rbenv/shims/ruby</string>
+			<string>/usr/bin/ruby</string>
 			<key>Shell Script File</key>
 			<string>csv2md.rb</string>
 			<key>Title</key>
