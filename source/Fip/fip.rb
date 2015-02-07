@@ -4,7 +4,7 @@ require 'fileutils'
 require 'syslog'
 
 FIP_DIR = '/Dropbox/fip'
-Syslog.open("fip.rb")
+Syslog.open("PopClip:fip")
 input = ENV['POPCLIP_TEXT']
 
 # input = <<"EOS"
@@ -38,6 +38,7 @@ class Exporter
         array.push line.strip
       end
     end
+    Syslog.notice("prepare_content => %s", array)
     @content = array
   end
 
@@ -67,7 +68,7 @@ begin
   exporter = Exporter.new(input, "#{Etc.getpwuid.dir}" + FIP_DIR)
   exporter.export
 rescue Exception => e
-  Syslog.log(Syslog::LOG_WARNING, "Exception: %s", e.message)
+  Syslog.warning("Exception: %s", e.message)
 ensure
   Syslog.close
 end
