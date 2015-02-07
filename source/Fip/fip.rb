@@ -59,7 +59,7 @@ class Exporter
     prepare_directory
     prepare_content
     export_content
-    # print_content
+    print_content
   end
 end
 
