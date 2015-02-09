@@ -12,7 +12,7 @@
 			<key>Shell Script File</key>
 			<string>full_to_half_alphanumeric.rb</string>
 			<key>Title</key>
-			<string>Full to Half Alphanumeric</string>
+			<string>half alnum</string>
 		</dict>
 	</array>
 	<key>Extension Description</key>
@@ -20,6 +20,6 @@
 	<key>Extension Identifier</key>
 	<string>com.mnakada.popclip.extension.FullToHalfAlphanumeric</string>
 	<key>Extension Name</key>
-	<string>FullToHalfAlphanumeric</string>
+	<string>Half alnum</string>
 </dict>
 </plist>
