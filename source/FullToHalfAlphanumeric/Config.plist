@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/ruby</string>
+			<key>Shell Script File</key>
+			<string>full_to_half_alphanumeric.rb</string>
+			<key>Title</key>
+			<string>Full to Half Alphanumeric</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Full-width to Half-width Alphanumeric by m-nakada</string>
+	<key>Extension Identifier</key>
+	<string>com.mnakada.popclip.extension.FullToHalfAlphanumeric</string>
+	<key>Extension Name</key>
+	<string>FullToHalfAlphanumeric</string>
+</dict>
+</plist>
