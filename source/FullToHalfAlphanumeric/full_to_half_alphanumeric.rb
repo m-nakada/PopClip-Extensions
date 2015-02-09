@@ -15,7 +15,7 @@ input = ENV['POPCLIP_TEXT']
 
 begin
   Syslog.open("PopClip:FullToHalfAlphanumeric")
-  print NKF::nkf '--utf8 -Z0', str
+  print NKF::nkf '--utf8 -Z0', input
 rescue Exception => e
   Syslog.warning("Exception: %s", e.message)
 ensure
